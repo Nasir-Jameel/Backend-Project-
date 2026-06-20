@@ -1,2 +1,21 @@
 # Backend-Project-
 This is real world Scatch project in my backend learning. 
+
+user model contains:
+full name: String,
+email: String,
+password: String,
+cart : Array,
+isAdmin: boolean,
+orders: array,
+contact: number,
+picture: String
+
+Product Model Contains: 
+image: String,
+name: String,
+price: number,
+discount: number,
+bgcolor: String,
+panelcolor: String,
+textcolor: String
