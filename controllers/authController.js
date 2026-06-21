@@ -1,4 +1,4 @@
-const userModel = require("../models/User-model");
+const userModel = require("../models/user-model");
 const { comparePass } = require("../utils/dcryptPass"); 
 const { hashPass } = require("../utils/encryptPass");    
 const { jsontoken } = require("../utils/generatetoken");   
