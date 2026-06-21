@@ -2,8 +2,9 @@ const mongoose = require('mongoose');
 const config = require('config');
 const dbgr = require('debug')("development:mongoose")
 
+const dbURI = process.env.DATABASE_URI || config.get("DATABASE_URI")
 mongoose
-.connect(`${config.get("DATABASE_URI")}/scatch`)
+.connect(dbURI)
 .then(function(){
     dbgr("DB Connected");
 })
