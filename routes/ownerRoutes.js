@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router(); // Fixed: Changed express() to express.Router()
-let ownerModel = require("../Models/owner-model");
+let ownerModel = require("../models/owner-model");
 
 router.get("/", async (req, res) => {
   res.send("Everything just fine");
