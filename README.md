@@ -19,3 +19,10 @@ discount: number,
 bgcolor: String,
 panelcolor: String,
 textcolor: String
+
+routes: 
+/shop -> shop
+/ users /cart -> cart
+/admin  -> admin panel
+/owner / products -> show all products
+/owner/admin  -> show admin panel to create products
