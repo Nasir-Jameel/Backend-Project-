@@ -1,12 +1,12 @@
 const mongoose = require("mongoose")
 
 
-const userSchema = mongoose.Schema({
+const ownerSchema = mongoose.Schema({
     fullname: String, 
 email: String,
 password: String,
 Products: {
-    type: array,
+    type: Array,
     default: []
 },
 picture: String,

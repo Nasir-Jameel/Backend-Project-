@@ -6,7 +6,7 @@ const ownerRouter = require("./routes/ownerRouter")
 const productRouter = require("./routes/productRouter")
 const userRouter = require("./routes/userRouter")
 
-const db = require("./config/mongoose-conection")
+const db = require("./config/mongoose-connection")
 
 
 app.use(express.json())
@@ -19,4 +19,4 @@ app.use("/owners", ownerRouter)
 app.use("/products", productRouter)
 app.use("/users", userRouter)
 
-app.listen(3000)
+app.listen(3001)
